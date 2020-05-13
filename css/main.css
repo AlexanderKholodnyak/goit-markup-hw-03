@@ -1,0 +1,204 @@
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--logo-black-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.blue-logo {
+  color: var(--accent-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+.title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* Hero */
+
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: grey;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.title.big {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.hero-button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* auth-nav */
+.auth-nav {
+  color: var(--primary-white-color);
+  background-color: var(--primary-white-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover {
+  color: var(--accent-color);
+}
+.img-hover:hover {
+  background-color: var(--accent-color);
+}
+.applications {
+  color: var(--primary-white-color);
+  background-color: var(--background-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.title.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+.description-project {
+  color: var(--primary-white-color);
+  background-color: var(--background-color-project);
+}
+h3.down {
+  color: var(--primary-white-color);
+
+  font-size: 22px;
+  line-height: 1.18;
+}
+address {
+  font-style: normal;
+}
+/* Не работает! */
+/* address:first-child {
+  color: var(--primary-white-color);
+} */
+
+/* Работает */
+address p:first-child {
+  color: var(--primary-white-color);
+}
+.link-color a {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--link-contacts-color);
+}
+.follow {
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.copiright {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+
+  color: var(--copiright--color);
+}
+.project-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.kind-work {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border: none;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+  border: none;
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-f {
+  color: var(--primary-white-color);
+  border: none;
+
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+}
