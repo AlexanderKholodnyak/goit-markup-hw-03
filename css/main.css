@@ -1,3 +1,12 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 .list {
   list-style: none;
 }
@@ -29,14 +38,21 @@
 }
 /* Hero */
 
+.hero {
+  text-align: center;
+}
+
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
   color: var(--primary-white-color);
   background-color: grey;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -88,6 +104,9 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.features-title {
+  visibility: hidden;
 }
 
 .title.team {
