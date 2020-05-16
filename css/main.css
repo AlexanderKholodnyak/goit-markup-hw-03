@@ -1,6 +1,7 @@
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
@@ -8,6 +9,10 @@
 }
 
 .list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -28,6 +33,9 @@
   color: var(--accent-color);
 }
 .title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -36,6 +44,12 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+.list p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Hero */
 
 .hero {
@@ -91,10 +105,26 @@
 .auth-nav .link:hover {
   color: var(--accent-color);
 }
+.img-hover {
+  width: 278px;
+  height: 120px;
+  border-radius: 4px;
+  bottom: auto;
+  display: inline-block;
+  margin-bottom: 30px;
+  /* text-align: center; */
+}
 .img-hover:hover {
   background-color: var(--accent-color);
 }
+.img-hover > img {
+  display: inline-block;
+  padding: 25px 104px;
+}
 .applications {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--primary-white-color);
   background-color: var(--background-color);
 
@@ -105,8 +135,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.features-li li {
+  width: 278px;
+}
 .features-title {
   visibility: hidden;
+}
+.title-item {
+  margin-bottom: 15px;
 }
 
 .title.team {

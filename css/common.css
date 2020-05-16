@@ -57,3 +57,6 @@ a {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+img {
+  margin: 0;
+}
