@@ -44,12 +44,12 @@
         </ul>
       </div>
     </header>
-    <main>
+    <main class="main-portfolio">
       <!-- потом сделаем невидтмым -->
-      <h1>Наши проекты</h1>
-      <section>
+      <!-- <h1 style="visibility: collapse;">Наши проекты</h1> -->
+      <section >
         <!-- Фильтры -->
-        <ul class="list container">
+        <ul class="list container button-filter">
           <li><button type="button" class="button primary">Все</button></li>
           <li>
             <button type="button" class="button secondary">Веб-сайты</button>
@@ -65,7 +65,7 @@
           </li>
         </ul>
         <!-- Проекты -->
-        <ul class="list container">
+        <ul class="list container projects">
           <li class="project-item">
             <a href="">
               <img src="./images/project-1.jpg" alt="laptop" />
@@ -178,10 +178,10 @@
       </section>
     </main>
     <footer>
-      <div class="container">
+      <div class="container basement">
         <section>
-          <a href="./index.html" class="logo">
-            <h3 class="down"><span class="blue-logo">Web</span> Studio</h3>
+          <a href="./index.html" class="logo"></a>
+          <h3 class="down"><span class="blue-logo">Web</span> Studio</h3>
           </a>
           <address>
             <p>г. Киев, Бульвар Леси Украинки, д. 26</p>
@@ -195,42 +195,26 @@
         </section>
         <section>
           <h3 class="follow">присоединяйтесь</h3>
-          <ul class="list">
-            <li>
-              <a
-                href="https://www.instagram.com/"
-                aria-label="Ссылка на Instagram"
-                target="_blank"
-                ><img src="./images/instagram2.svg" alt="Instagram"
-              /></a>
+          <ul class="list network-icon">
+            <li class="item">
+              <a href="https://www.instagram.com/" aria-label="Ссылка на Instagram" target="_blank"><img
+                  src="./images/instagram2.svg" alt="Instagram" /></a>
             </li>
-            <li class="list">
-              <a
-                href="https://www.twitter.com/"
-                aria-label="Ссылка на Twitter"
-                target="_blank"
-                ><img src="./images/twitter-3.svg" alt="twitter"
-              /></a>
+            <li class="item">
+              <a href="https://www.twitter.com/" aria-label="Ссылка на Twitter" target="_blank"><img
+                  src="./images/twitter-3.svg" alt="twitter" /></a>
             </li>
-            <li>
-              <a
-                href="https://www.facebook.com/"
-                aria-label="Ссылка на Facebook"
-                target="_blank"
-                ><img src="./images/facebook2.svg" alt="facebook"
-              /></a>
+            <li class="item">
+              <a href="https://www.facebook.com/" aria-label="Ссылка на Facebook" target="_blank"><img
+                  src="./images/facebook2.svg" alt="facebook" /></a>
             </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/"
-                aria-label="Ссылка на LinkedIn"
-                target="_blank"
-                ><img src="./images/linkedin2.svg" alt="linkedin"
-              /></a>
+            <li class="item">
+              <a href="https://www.linkedin.com/" aria-label="Ссылка на LinkedIn" target="_blank"><img
+                  src="./images/linkedin2.svg" alt="linkedin" /></a>
             </li>
           </ul>
         </section>
-        <section>
+        <section class="join">
           <h3 class="follow">подписаться на рассылку</h3>
           <button type="button" class="button primary button-f">
             <span class="batton-port">Подписаться</span><img src="./images/icon-twitter.svg" alt="plane" /></a>
