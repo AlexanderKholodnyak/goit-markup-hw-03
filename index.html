@@ -28,19 +28,19 @@
             ><span class="blue-logo">Web</span> Studio</a
           >
           <ul class="list site-nav">
-            <li><a href="" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="" class="link">Контакты</a></li>
+            <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="list auth-nav">
-          <li>
+          <li class="item">
             <img src="./images/envelope.svg" alt="Конверт" />
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <img src="./images/smartphone.svg" alt="Smartphone" />
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
@@ -50,18 +50,19 @@
     <main>
       <!-- Герой -->
       <section class="hero">
-        <h1 class="hero-title">
+        <div><h1 class="hero-title">
           эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <a href="" class="hero-button primary"> Заказать услугу</a>
+        <a href="" class="hero-button primary"> Заказать услугу</a></div>
+        
       </section>
 
       <!-- Преимущества -->
       <section class="container">
         <h2 class="features-title">Features</h2>
         <ul class="list features-li">
-          <li>
+          <li class="item">
             <div class="img-hover">
               <img src="./images/antenna1.svg" alt="Антенна" />
             </div>
@@ -72,7 +73,7 @@
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="item">
             <div class="img-hover">
               <img src="./images/clock1.png" alt="Часы"/>
             </div>
@@ -83,7 +84,7 @@
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="item">
             <div class="img-hover">
             <img src="./images/diagram1.png" alt="Диаграмма"/>
             </div>
@@ -94,7 +95,7 @@
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="item">
             <div class="img-hover">
             <img src="./images/astronaut1.png" alt="Астронавт"/>
             </div>
@@ -135,12 +136,12 @@
       <!-- Наша команда -->
       <section class="container">
         <h2 class="title big team">Наша команда</h2>
-        <ul class="list">
+        <ul class="list our-team">
           <li class="employer">
             <img src="./images/smith.png" alt="фото сотрудника" width="278" />
             <h3 class="title teamate">John Smith</h3>
             <p class="profession">Product Designer</p>
-            <ul class="list">
+            <ul class="list social-nets">
               <li>
                 <a href="https://www.instagram.com/" target="_blank"
                   ><img src="./images/instagram1.svg" alt="Instagram"
@@ -167,7 +168,7 @@
             <img src="./images/stewart.png" alt="фото сотрудника" width="278" />
             <h3 class="title teamate">Marta Stewart</h3>
             <p class="profession">Frontend Developer</p>
-            <ul class="list">
+            <ul class="list social-nets">
               <li>
                 <a href="https://www.instagram.com/" target="_blank"
                   ><img src="./images/instagram1.svg" alt="Instagram"
@@ -194,7 +195,7 @@
             <img src="./images/jakis.png" alt="фото сотрудника" width="278" />
             <h3 class="title teamate">Robert Jakis</h3>
             <p class="profession">Marketing</p>
-            <ul class="list">
+            <ul class="list social-nets">
               <li>
                 <a href="https://www.instagram.com/" target="_blank"
                   ><img src="./images/instagram1.svg" alt="Instagram"
@@ -221,7 +222,7 @@
             <img src="./images/doe.png" alt="фото сотрудника" width="278" />
             <h3 class="title teamate">Martin Doe</h3>
             <p class="profession">UI Designer</p>
-            <ul class="list">
+            <ul class="list social-nets">
               <li>
                 <a href="https://www.instagram.com/" target="_blank"
                   ><img src="./images/instagram1.svg" alt="Instagram"
@@ -249,30 +250,30 @@
       <!--Постоянные клиенты-->
       <section class="container">
         <h2 class="title big clients">Постоянные клиенты</h2>
-        <ul class="list">
-          <li>
+        <ul class="list client-list">
+          <li class="item">
             <a href=""><img src="./images/logo1.svg" alt="logo" /></a>
           </li>
-          <li>
+          <li class="item">
             <a href=""><img src="./images/logo2.svg" alt="logo" /></a>
           </li>
-          <li>
+          <li class="item">
             <a href=""><img src="./images/logo3.svg" alt="logo" /></a>
           </li>
-          <li>
-            <a href=""><img src="./images/logo_4.svg" alt="logo" /></a>
+          <li class="item">
+            <a href=""><img src="./images/logo4.svg" alt="logo" /></a>
           </li>
-          <li>
+          <li class="item">
             <a href=""><img src="./images/logo5.svg" alt="logo" /></a>
           </li>
-          <li>
+          <li class="item">
             <a href=""><img src="./images/logo6.svg" alt="logo" /></a>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <div class="container">
+      <div class="container basement">
           <section>
           <a href="./index.html" class="logo"></a>
             <h3 class="down"><span class="blue-logo">Web</span> Studio</h3>
@@ -289,26 +290,26 @@
         </section>
         <section>
           <h3 class="follow">присоединяйтесь</h3>
-          <ul class="list">
-            <li>
+          <ul class="list network-icon">
+            <li class="item">
               <a href="https://www.instagram.com/" aria-label="Ссылка на Instagram" target="_blank"><img
                   src="./images/instagram2.svg" alt="Instagram" /></a>
-            </li>
-            <li class="list">
+            </li >
+            <li class="item">
               <a href="https://www.twitter.com/" aria-label="Ссылка на Twitter" target="_blank"><img
                   src="./images/twitter-3.svg" alt="twitter" /></a>
             </li>
-            <li>
+            <li class="item">
               <a href="https://www.facebook.com/" aria-label="Ссылка на Facebook" target="_blank"><img
                   src="./images/facebook2.svg" alt="facebook" /></a>
             </li>
-            <li>
+            <li class="item">
               <a href="https://www.linkedin.com/" aria-label="Ссылка на LinkedIn" target="_blank"><img
                   src="./images/linkedin2.svg" alt="linkedin" /></a>
             </li>
           </ul>
         </section>
-        <section>
+        <section class="join">
           <h3 class="follow">подписаться на рассылку</h3>
           <button type="button" class="button primary button-f">
             Подписаться
