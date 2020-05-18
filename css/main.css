@@ -289,7 +289,7 @@ main section:nth-child(2) {
   width: 278px;
 }
 .features-title {
-  visibility: hidden;
+  /* visibility: hidden; */
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -312,7 +312,7 @@ main section:nth-child(3) {
 
 main section:nth-child(4) {
   padding-top: 100px;
-  padding-bottom: 130px;
+  padding-bottom: 95px;
 }
 
 .our-team {
@@ -325,9 +325,14 @@ main section:nth-child(4) {
 }
 
 .employer {
-  height: 422px;
+  padding-bottom: 35px;
+  /* height: 422px; */
   width: 278px;
   text-align: center;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .employer > img {
@@ -476,14 +481,13 @@ address p:last-child {
 
 .project-item {
   margin-bottom: 30px;
-
+  padding-bottom: 20px;
   width: 380px;
-  height: 404px;
+  /* height: 404px; */
   border-radius: 5px;
   border: 1px solid#EEEEEE;
 }
 .project-title {
-  /* margin-top: 20px; */
   margin-bottom: 5px;
   margin-left: 25px;
 
@@ -493,6 +497,10 @@ address p:last-child {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.project-item h2.project-title {
+  margin-top: 0px;
+  margin-bottom: 0;
 }
 .project-item img {
   display: block;
@@ -507,7 +515,7 @@ p.kind-work {
   letter-spacing: 0.03em;
 }
 .description-project {
-  visibility: hidden;
+  /* visibility: hidden; */
 
   margin-left: 25px;
 
@@ -615,4 +623,14 @@ main.main-portfolio {
 }
 .projects .project-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
