@@ -428,8 +428,11 @@ address {
 address p {
   margin-bottom: 10px;
 }
+address p:first-child {
+  color: var(--primary-white-color);
+}
 address p:last-child {
-  margin-top: 0;
+  margin-bottom: 0px;
 
   color: var(--primary-white-color);
 }
