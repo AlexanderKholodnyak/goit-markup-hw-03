@@ -473,6 +473,9 @@ address p:last-child {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.follow-sign {
+  margin-bottom: 0px;
+}
 .copiright {
   padding-top: 21px;
 
